@@ -7,7 +7,7 @@ namespace CQRSMediatorPattern.DAL.CQRS.Commands.Response
 {
     public class CreateProductCommandResponse
     {
-        public Guid ProductId { get; set; }
+        //public Guid ProductId { get; set; }
 
         public bool IsSuccess { get; set; }
     }

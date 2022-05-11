@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CQRSMediatorPattern.DAL.CQRS.Commands.Request
 {
-    public class DeleteProductCommandRequest : IRequest<CreateProductCommandResponse>
+    public class DeleteProductCommandRequest : IRequest<DeleteProductCommandResponse>
     {
         public Guid Id { get; set; }
     }
