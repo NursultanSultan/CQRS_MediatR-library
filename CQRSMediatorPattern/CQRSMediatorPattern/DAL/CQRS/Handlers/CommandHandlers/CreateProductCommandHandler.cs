@@ -10,7 +10,7 @@ namespace CQRSMediatorPattern.DAL.CQRS.Handlers.CommandHandlers
 {
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommandRequest, CreateProductCommandResponse>
     {
-        private AppDbContext _context { get; set; }
+        private AppDbContext _context { get; }
 
         public CreateProductCommandHandler(AppDbContext context)
         {
